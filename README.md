@@ -11,3 +11,9 @@
 
 - create `new-branch` branch
 - commit with 'new-branch' message
+
+## git save
+
+    $ git save
+
+- commit with 'fixup! branch-name'
