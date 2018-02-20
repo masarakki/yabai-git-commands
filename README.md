@@ -16,9 +16,12 @@
 
 ### git save
 
-    $ git save
+    $ git save [options]
 
 - commit with 'fixup! branch-name'
+- options pass to git commit command.
+  for example, It can use commit all modified files.
+  ex) "git save -a" is expand to "git commit -a -m 'fixup! branch-name'"
 
 ### git squash
 
